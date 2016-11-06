@@ -1,0 +1,239 @@
+/*===========================================*/
+/*	DESKTOP LAYOUT
+/*===========================================*/
+
+.nav-links>li>a:hover{
+	color: red;
+	text-decoration: none;
+	border-bottom: 5px solid #4d4d4d;
+}
+
+body{
+	max-width: 1280px;
+	margin: 0;
+	text-align: center;
+	background: #c4c4c4;
+}
+
+section {
+	padding-bottom: 0px;
+	overflow: hidden;
+}
+
+.back-pic {
+	max-width: 61%;
+	max-height: none;
+
+}
+
+.p1-button {
+	margin-top: -15%;
+	margin-left: 4%;
+	max-width: 30%;
+	max-height: none;
+}
+
+.p3-block {
+	max-width: 40%;
+	margin-top: 10%;
+}
+
+.p3-pic {
+  display: inline-block;
+	position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+	position: absolute;
+	width:auto;
+	height:auto;
+	overflow: hidden;
+	top: 6%;
+	display: block;
+	/*float:right;*/
+	margin-top:8%;
+	width: 55%;
+	left: 45%;
+}
+.box ul{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+}
+.box li {
+	float:right;
+	width: 30%;
+	margin: 5%;
+	margin-left: 15%;
+
+}
+
+.box img {width:100%;}
+
+ .box3 li {
+	margin: 5% 5% -1% 15%;
+}
+
+
+
+
+
+#tab {
+	float: right;
+	width: 30%;
+}
+
+.text {
+	width: 17%;
+	padding-bottom: 5%;
+}
+
+.parachute {
+	position: static;
+	width: 14%;
+	margin-top: -52%;
+	float: right;
+
+
+}
+
+.owl-carousel {
+	margin-top: -9%;
+}
+
+.s1-phone, .back-pic-phone, .one-phone, .two-phone, .three-phone, .schedule-phone {
+	display: none;
+}
+
+.s4 {
+	position: static;
+	background-color: rgb(196, 196, 196);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-attachment: scroll;
+	width: 100%;
+	height: 500px;
+}
+
+.s5 {
+	background-color: rgb(241, 222, 132);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-attachment: scroll;
+	width: 100%;
+	height: 1000px;
+}
+
+.owl-carousel .owl-item img {
+	width: 72%;
+	margin-left: -90%;
+}
+
+.counter {
+	position: static;
+	top: 85%;
+	right: auto;
+	bottom: auto;
+	left: 50%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgb(255, 255, 255);
+	text-transform: none;
+	line-height: 21px;
+	background-color: rgba(0, 0, 0, 0);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	background-size: auto;
+	background-attachment: scroll;
+	margin-top: 0%;
+	margin-right: 0px;
+	margin-bottom: 7%;
+	margin-left: 40%;
+	max-width: 100%;
+	max-height: none;
+}
+
+
+
+
+@media (min-width: 1281px) {
+
+	body {
+		margin: 0 auto;
+		background: #ffffff;
+
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+/*===========================================*/
+/*	MOBILE & TABLET COMMON
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 991px) {
+	.back-pic, .s1, .one, .two, .three, .schedule, .box, .parachute, .counter {
+		display: none;
+	}
+
+	.back-pic-phone, .s1-phone, .one-phone, .two-phone, .three-phone, .schedule-phone {
+		display: block;
+		width: 100%;
+	}
+
+	.text {
+		width: 28%;
+	}
+
+	.owl-carousel .owl-item img {
+		margin-left: -86%;
+	}
+
+	.p1-button {
+		max-width: none;
+		width: 50%;
+		margin-left: 44%;
+	}
+}
+
+
+/*===========================================*/
+/*	TABLET
+/*===========================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+/*===========================================*/
+/*	MOBILE
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 767px) {
+
+}
+@media (min-width: 600px) and (max-width: 767px) {
+}
+@media (min-width: 480px) and (max-width: 599px) {
+
+}
+@media (min-width: 200px) and (max-width: 479px) {
+	.s4 {
+		height: 200px;
+	}
+
+	.s5 {
+		height: 500px;
+	}
+}
