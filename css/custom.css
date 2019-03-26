@@ -53,9 +53,9 @@ section {
 	top: 6%;
 	display: block;
 	/*float:right;*/
-	margin-top:8%;
-	width: 55%;
-	left: 45%;
+	margin-top:12%;
+	width: 45%;
+	left: 43%;
 }
 .box ul{
 	margin:0px;
@@ -70,7 +70,9 @@ section {
 
 }
 
-.box img {width:100%;}
+.box img {
+	width:70%;
+}
 
  .box3 li {
 	margin: 5% 5% -1% 15%;
